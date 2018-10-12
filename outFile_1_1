@@ -1,144 +1,317 @@
 , #include
-", "
-"", {
-"\n", }
-"_1_1", std
-"_vector, txt"
+!=, "")
+
+!=wordsVector.end();, it++)
+
+", <<
+"")
+, {
+
+"";
+, }
+
+",, "
+".txt",, std::ifstream::out
+";
+, state
+"\n";
+, }
+
+"_1_1",, std::ifstream::out
+"_vector.txt",, std::ifstream::out
 #include, <vector>
-%, wordsMap2[state]
-'\n', {
-*argv[], {
-*it, state2
-+, ch
+
+%, wordsMap2[state].size();
+
+', ')
+
+')
+, {
+
+'\n')
+, {
+
+'\n';
+, wordsSet.insert(word);
+
+(ch, ==
+(fileName, +
+(fin, >>
+(int, i
+(s.at(i), ==
+(string, s
+(vector<string>::iterator, it=wordsVector.begin();
+(word, !=
+*argv[]), {
+
+*it;
+, }
+
++, '\n';
+
+-1;, i++)
+
 //, this
 //cout, <<
-0, i
-1, i++
-100, i++
-<, s
+0;, i
+1)));
+, }
+
+100;, i++){
+
+:, wordsSet)
+
+<, s.length();
 <<, word
-<<endl, map<string
+<<endl;
+, map<string,
 <ctime>, using
-<fstream>, #include
-<iostream>, #include
-<list>, #include
-<map>, #include
-<set>, #include
-<vector>, #include
-=, 0
-==, string
-=wordsVector, end
+<fstream>
+, #include
+<iostream>
+, #include
+<list>
+, #include
+<map>
+, #include
+<set>
+, #include
+<vector>
+, #include
+=, 0;
+==, string::npos;
+
 >>, noskipws
-M, i++
-M=2, map<list<string>
-NULL, //
-argc, char
-argv[1], set<string>
-argv[2], string
-at, i
-auto, p
-begin, it
-bool, is_of_some
-ch, {
-char, ch
-chari, char
-clear, for
-close, ofstream
+M;, i++)
+M=2;
+, map<list<string>,
+argc,, char
+argv[2];
+, string
+bool, is_of_some(string
+ch)
+, {
+
+ch;
+, fstream
+char, ch)
+
+chari;
+, char
 const, string
 cout, <<
 dont, get
-else, {
-encompassing_string, const
-end, it++
-endl, word
+else, if
+else
+, {
+
+encompassing_string,, const
+endl, <<endl;
+
+endl;
+, word
 every, time
-false, }
+
+false;
+, }
+
 fileName, =
-fin, argv[1]
-find_first_not_of, encompassing_string
-first, <<
-for, int
-fstream, fin
-generated, //
+fin(argv[1],, fstream::in);
+
+for, (string
+for(auto, p
+for(int, i
+for(vector<string>::iterator, it=wordsVector.begin();
+fstream, fin(argv[1],
+fstream::in);
+, while
+generated
+, //
 get, the
 i, =
-i++, {
-if, s
-ifstream, inputFile
-in, while
+i++), {
+
+i++)
+, {
+
+i++){
+, cout
+if, (s.at(i)
+ifstream, inputFile;
+
 ind, =
 initializes, the
-inputFile, inputFile
-insert, word
-int, i
-is_of_some, string
-it, =wordsVector
-it++, {
-it=wordsVector, begin
-iterator, it=wordsVector
-length, i++
-line, ifstream
-list<string>, st
-main, int
-map<list<string>, vector<string>>
-map<string, string>
-namespace, std
+inputFile.close();, ofstream
+inputFile.open(argv[1]);
+, set<string>
+inputFile;
+, inputFile.open(argv[1]);
+
+int, main(int
+is_of_some(string, encompassing_string,
+it, !=wordsVector.end();
+it!=wordsVector.end();, it++)
+it++), {
+
+it++)
+, {
+
+it=wordsVector.begin();, it
+line, initializes
+line;
+, ifstream
+list<string>, st;
+
+main(int, argc,
+map<list<string>,, vector<string>>
+map<string,, string>
+namespace, std;
+
 noskipws, >>
-npos, }
 number, generated
-ofstream, outFileSet
-open, argv[1]
-out, |
-outFileMap, outFileMap
-outFileSet, outFileSet
-outFileVec, outFileVec
-p, wordsMap
-pair<string, string>
-pop_front, }
-push_back, word
-rand, %
+
+ofstream, outFileSet;
+
+outFileMap, <<
+outFileMap.close();
+, string
+outFileMap.open, (fileName
+outFileMap;
+, outFileMap.open
+outFileSet, <<
+outFileSet.close();
+, inputFile.close();
+outFileSet.open, (fileName
+outFileSet;
+, outFileSet.open
+outFileVec, <<
+outFileVec.close();
+, map<string,
+outFileVec.open, (fileName
+outFileVec;
+, outFileVec.open
+p, :
+p.first, <<
+p.second, <<
+rand(), %
 random, number
-return, s
-s, {
+return, s.find_first_not_of(encompassing_string)
+s, :
+s){
+, return
+s,, char
+s.find_first_not_of(encompassing_string), ==
+s.length();, i++)
+
 same, thing
-second, <<
-set<string>, wordsSet
-size, 1
+set<string>, wordsSet;
+
 so, you
-srand, time
-st, for
+srand(time(NULL));, //
+st.clear();
+, for
+st.pop_front();
+, }
+
+st.push_back("");
+, }
+
+st.push_back(*it);
+, st.pop_front();
+
+st.push_back(wordsMap3[st][ind]);
+, st.pop_front();
+
+st;
+, for
 state, =
 state2, =
-std, bool
-string, encompassing_string
-string>, wordsMap
-string_contains, string
+std::ifstream::out, |
+std::ifstream::trunc);
+, for
+std;
+, bool
+string, s){
+
+string::npos;
+, }
+
+string>, wordsMap;
+
+string>("",, wordsVector.at(0)));
+
+string>(wordsVector.at(i),, wordsVector.at(i
+string_contains(string, s,
 the, random
 thing, every
 this, line
-time, NULL
-true, }
-trunc, for
-txt", std
+time
+, state
+true;
+, }
+
 using, namespace
-vector<string>, wordsVector
-vector<string>>, wordsMap2
-while, fin
-word, string
-wordsMap, wordsMap
-wordsMap2, string
-wordsMap2[state2], push_back
-wordsMap2[state], size
+vector<string>, wordsVector;
+
+vector<string>>, wordsMap2;
+
+while, (fin
+word, <<
+word;
+, string
+wordsMap)
+, {
+
+wordsMap.insert(pair<string,, string>("",
+wordsMap2;
+, string
+wordsMap2[state2].push_back(*it);
+, state2
+wordsMap2[state].size();
+, cout
 wordsMap2[state][ind], <<
-wordsMap3, list<string>
-wordsMap3[st], push_back
-wordsMap3[st][ind], st
-wordsMap3[st][ind]<<", "
+wordsMap2[state][ind];
+, }
+
+wordsMap3;
+, list<string>
+wordsMap3[st].push_back(*it);
+, st.push_back(*it);
+
+wordsMap3[st].size();
+, cout
+wordsMap3[st][ind]<<", ";
+
+wordsMap;
+, wordsMap.insert(pair<string,
 wordsMap[state], <<
-wordsSet, vector<string>
-wordsVector, string
+wordsMap[state];
+, }
+
+wordsSet)
+, {
+
+wordsSet.insert(word);
+, wordsVector.push_back(word);
+
+wordsSet;
+, vector<string>
+wordsVector)
+, {
+
+wordsVector.at(0)));
+, for
+wordsVector.at(i, +
+wordsVector.push_back(word);
+, }
+
+wordsVector.size(), -1;
+wordsVector;
+, string
 you, dont
-{, return
-|, std
-||, ch
-}, bool
+{
+, for(int
+|, std::ifstream::trunc);
+
+}
+, bool
