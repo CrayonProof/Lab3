@@ -37,7 +37,6 @@ int main(int argc, char *argv[]) {
     vector<string> wordsVector;
     string word;
     string chari;
-    
     char ch;
     fstream fin(argv[1], fstream::in);
     while (fin >> noskipws >> ch)

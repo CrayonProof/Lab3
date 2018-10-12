@@ -12,6 +12,10 @@ bool is_of_some(string encompassing_string, const string s){
   return s.find_first_not_of(encompassing_string) == string::npos;
 }
 
+
+//THIS IS NOT THE MAIN FILE. This one has been modified for my creative endeavors. 
+//Please compile main.cpp instead of this
+
 bool string_contains(string s, char ch)
 {
     for(int i = 0; i < s.length(); i++)
